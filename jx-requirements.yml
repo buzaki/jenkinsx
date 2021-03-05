@@ -20,13 +20,13 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "ci.buzaki.dev"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: "admin@id3m.net"
+      enabled: true
+      production: true
   repository: bucketrepo
   secretStorage: local
   vault: {}
